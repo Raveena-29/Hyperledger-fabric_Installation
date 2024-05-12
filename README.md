@@ -1,4 +1,4 @@
-# Hyperledger Fabric Tnstallation
+# Hyperledger Fabric Installation
 
 # Prerequisites
 
@@ -51,18 +51,20 @@ sudo ls
 mkdir file(in my case)
 cd file
 ```
+![blockchain5](https://github.com/Raveena-29/Hyperledger-fabric_Installation/assets/148243757/0409e782-09d4-44de-908d-301e12ee0fbf)
 
 * B) Determine the directory where you want to download the fabric samples. Open the directory in terminal and run the below command.
 
 ```
 curl -sSL http://bit.ly/2ysbOFE | bash -s
 ```
+![blockchain2](https://github.com/Raveena-29/Hyperledger-fabric_Installation/assets/148243757/4d93210d-8b8d-477d-8a36-ff2b439e6006)
+![blockchain3](https://github.com/Raveena-29/Hyperledger-fabric_Installation/assets/148243757/87d9a4df-0ba2-4fc2-bafa-72b4ae7b89d9)
 
-
-* C) Open the fabric-samples and go to the first-network.
+* C) Open the fabric-samples and go to the test-network.
 
 ```
-cd fabric-samples/first-network
+cd fabric-samples/test-network
 ```
 
 
@@ -73,5 +75,5 @@ cd fabric-samples/first-network
 sudo ./network.sh up
 ```
 
-
+![Capture](https://github.com/Raveena-29/Hyperledger-fabric_Installation/assets/148243757/70fecd22-ff21-4dee-91d7-68a680858342)
 
